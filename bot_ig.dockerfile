@@ -2,7 +2,7 @@
 FROM python:3.8
 
 # Etiqueta de información del creador
-LABEL maintainer=""
+LABEL maintainer="valsayesech@gmail.com"
 
 # Instalamos las dependencias específicas de tu aplicación, si es necesario
 RUN apt-get update && apt-get install -y \
